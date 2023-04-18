@@ -131,3 +131,7 @@ input[type="checkbox"] {
   display: block;
   width: auto;
 }
+
+.Remember-Me {
+  padding-left: 5%;
+}
