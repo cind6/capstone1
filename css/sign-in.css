@@ -122,3 +122,12 @@ margin-left: 25px;
 .social i{
 margin-right: 4px;
 }
+
+
+input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+     -moz-appearance: checkbox;
+          appearance: checkbox;
+  display: block;
+  width: auto;
+}

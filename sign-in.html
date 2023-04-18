@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
- 
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
-  <link rel="preconnect" href="https://fonts.gstatic.com">
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/sign-in.css">
-    <!--Stylesheet-->
-   
+  <!--Stylesheet-->
+
 </head>
 
 <body>
@@ -24,45 +25,52 @@
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
+          <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand" href="#">WebSiteName</a>
+        <a class="navbar-brand" href="index.html">Radiance Cosmetics</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="products.html">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="registration.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="sign-in.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
       </div>
     </div>
   </nav>
 
 
-    <div class="background">
-        <div class="shape"></div>
-        <div class="shape"></div>
+  <div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+  </div>
+  <form>
+    <h3>Login Here</h3>
+
+    <label for="username">Username/Email</label>
+    <input type="text" placeholder="Email or username" id="username">
+
+    <label for="password">Password</label>
+    <input type="password" placeholder="Password" id="password">
+
+    <div class="checkbox">
+      <label>
+        <input type="checkbox" value="remember-me" id="RememberMe"> Remember Me</label>
     </div>
-    <form>
-        <h3>Login Here</h3>
 
-        <label for="username">Username/Email</label>
-        <input type="text" placeholder="Email or username" id="username">
 
-        <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">
-
-        <button>Log In</button>
-        <div class="social">
-          <div class="go"><i class="fab fa-google"></i>  Google</div>
-          <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
-        </div>
-    </form>
+    <button>Log In</button>
+    <div class="social">
+      <div class="go"><i class="fab fa-google"></i> Google</div>
+      <div class="fb"><i class="fab fa-facebook"></i> Facebook</div>
+    </div>
+  </form>
 </body>
+
 </html>
