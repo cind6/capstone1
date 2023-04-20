@@ -1,14 +1,16 @@
+
 *:after{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  }
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+  
   body{
   background-color: #f8e7d8;
   }
   .background{
   width: 430px;
-  height: 420px;
+  height: 520px;
   position: absolute;
   transform: translate(-50%,-50%);
   left: 50%;
@@ -32,8 +34,7 @@
   background: linear-gradient(
     to right,
     #dbc9aa,
-    #cc8a6a
-    
+    #d79c7e
   );
   right: -30px;
   bottom: -80px;
@@ -54,7 +55,7 @@
   }
   form *{
   font-family: 'Poppins',sans-serif;
-  color: #b86a55;
+  color: #b86b55c7;
   letter-spacing: 0.5px;
   outline: none;
   border: none;
@@ -62,21 +63,21 @@
   form h3{
   font-size: 20px;
   font-weight: 400;
-  line-height: 10px;
+  line-height: 12px;
   text-align: center;
   }
   
   label{
   display: block;
-  margin-top: 0px;
-  font-size: 13px;
-  font-weight: 500;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
   }
   input{
   display: block;
   height: 50px;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.447);
+  background-color: rgba(255, 255, 255, 0.451);
   border-radius: 3px;
   padding: 0 10px;
   margin-top: 8px;
@@ -87,7 +88,7 @@
   color: #c23434;
   }
   button{
-  margin-top: 15px;
+  margin-top: 40px;
   width: 100%;
   background-color: #eabc98;
   color: #793927;
@@ -119,11 +120,33 @@
   .social i{
   margin-right: 4px;
   }
-  .dropdown-center{
-margin-top:-5px ;
-  }
   
-  .submit{
+  
+  input[type="checkbox"] {
+    -webkit-appearance: checkbox;
+       -moz-appearance: checkbox;
+            appearance: checkbox;
+    display: block;
+    width: auto;
+    height: -20px;
+  }
+
+  #RememberMe{
+    display:inline;
+    height:auto;
+  }
+  .container {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .Signin{
+    margin-top: 40px;
+  width: 100%;
   background-color: #eabc98;
-  color: #793927;  
+  color: #793927;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
   }

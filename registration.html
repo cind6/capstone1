@@ -4,32 +4,33 @@
 
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
- 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  
     <link rel="stylesheet" href="css/registration.css">
     <!--Stylesheet-->
    </head>
 
    <body>
 
-
-    <nav class="navbar navbar-inverse navbar-fixed-top">
+    <header>
+      <nav class="navbar navbar-expand-lg  bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="index.html">Radiance Cosmetics</a>
+          <a class="navbar-brand" href="#">Radiance Cosmetics</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="Product.html">Shop</a>
+              <a class="nav-link" href="sign-in.html">Login</a>
+              <a class="nav-link" href="registration.html">Signup</a>
+              <a class="nav-link" href="checkout.html">Cart</a>
           </div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="product.html">Shop</a></li>
-            <li><a href="contact-us.html">Contact</a></li>
-          </ul>
+          </div>
         </div>
       </nav>
+  </header>
 
     <div class="background">
         <div class="shape"></div>
@@ -47,11 +48,50 @@
         <label for="password">Password</label>
         <input type="password" placeholder="Password" id="password">
 
+        <label for="Cassword">Confirm Password</label>
+        <input type="cpassword" placeholder="Cofirm Password" id="cpassword">
+
+        <div class="dropdown-center">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            How did you hear about us?
+          </button>
+          <ul class="dropdown-menu">
+             <li><div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Referred by a friend
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+                Search Engine
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+              <label class="form-check-label" for="exampleRadios3">
+                Social media
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+              <label class="form-check-label" for="exampleRadios4">
+                Other
+              </label>
+            </div>
+          </ul>
+        </div>
+
         <button>Sign Up</button>
         <div class="social">
           <div class="go"><i class="fab fa-google"></i>  Google</div>
           <div class="fb"><i class="fab fa-facebook"></i>  Facebook</div>
         </div>
     </form>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
