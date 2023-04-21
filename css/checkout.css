@@ -105,8 +105,18 @@ label.radio input:checked + span {
 
 .spec {
   font-size: 11px;
+  
 }
 
 .button#checkout{
   color:#944130;
+}
+.img {
+  width: 10%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.img:hover {
+  transform: scale(1.1);
 }

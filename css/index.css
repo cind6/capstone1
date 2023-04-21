@@ -7,9 +7,17 @@
     }
   
     
-  
+    body{
+        background-color: #eeb4827f;
+    }
 
-
-  
+.navbar-brand > img {
+       
+    height: auto;
+    width: auto;
+    max-height: 40px;
+    max-width: 60px;
+    margin-block-end:40 ;
+         }
 
 
